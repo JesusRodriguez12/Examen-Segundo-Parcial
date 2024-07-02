@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index_estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Cuestionario de Fórmula 1</title>
+</head>
+<body>
+
+  <div class="start_btn">
+    <button>Iniciar prueba</button>
+  </div>
+
+  <div class="info_box">
+    <div class="info-title"><span>Algunas reglas de este cuestionario</span></div>
+    <div class="info-list">
+        <div class="info">1. Tendrás solo   <span> 15 segundos</span> por cada pregunta.</div>
+        <div class="info">2. Una vez que seleccione su respuesta, no se puede deshacer..</div>
+        <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+        <div class="info">4. No puedes salir del Quiz mientras estás jugando.</div>
+        <div class="info">5. Obtendrás puntos en base a tus respuestas correctas.</div>
+    </div>
+    <div class="buttons">
+        <button class="quit">Salir del Cuestionario</button>
+        <button class="restart">Continuar</button>
+    </div>
+  </div>
+
+  <div class="quiz_box">
+    <header>
+        <div class="title">Examen de Programación</div>
+        <div class="timer">
+            <div class="time_left_txt">Tiempo restante</div>
+            <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text">
+            <!-- Aquí se insertará la pregunta -->
+        </div>
+        <div class="option_list">
+            <!-- Aquí se insertarán las opciones -->
+        </div>
+    </section>
+    <footer>
+        <div class="total_que">
+            <!-- Aquí se mostrará el número de pregunta actual -->
+        </div>
+        <button class="next_btn">Siguiente</button>
+    </footer>
+  </div>
+
+  <div class="result_box">
+    <div class="icon">
+        <img src="./imagenes/SI202106060375_hires_jpeg_24bit_rgb.webp" class="avatar" alt="">
+    </div>
+    <div class="complete_text">¡Has completado el cuestionario!</div>
+    <div class="score_text">
+        <!-- Aquí se mostrará el resultado del puntaje -->
+    </div>
+    <div class="buttons">
+        <button class="restart">Cuestionario de repetición</button>
+        <button class="quit">Salir </button>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
